@@ -32,12 +32,15 @@ call plug#end()
 
 echo "
 
-	正在安装插件, 请先不要操作vim, 安装完成后会自动操作下一步操作......
+	正在安装插件,当前插件安装目录为${HOME}/.vim/plugins 
+	请先不要操作vim
+	安装完成后会自动操作下一步操作
 	
 	何方博客 https://hefang.link
 	
+	
 " > ~/.vim/README
-vim +PlugInstall +qall -R ~/.vim/README
+vim +PlugInstall +qall +set\ nu -R ~/.vim/README
 
 echo "
 \"更改主题
