@@ -1,4 +1,8 @@
 #!/bin/bash
+
+command -v vim >/dev/null 2>&1 || { echo >&2 "未发现vim, 请先安装vim"; exit 1; }
+command -v git >/dev/null 2>&1 || { echo >&2 "未发现git, 请先安装git"; exit 1; }
+
 if [ -e ~/.vimrc ]; then
 	mv ~/.vimrc ~/.vimrc.bak
 	echo '正在备份已存在的.vimrc文件'
