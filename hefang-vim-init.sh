@@ -30,8 +30,12 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 call plug#end()
 " > ~/.vimrc
 
-echo '正在安装插件'
-vim +PlugInstall +qall
+echo "
+
+	正在安装插件, 请稍等......
+	
+" > ~/.vim/README
+vim +PlugInstall +qall -R ~/.vim/README
 
 echo "
 \"更改主题
