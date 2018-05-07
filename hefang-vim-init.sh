@@ -36,6 +36,10 @@ vim +PlugInstall +qall
 echo "
 \"更改主题
 colorscheme molokai
+\"显示行号
+set nu
+\"启用鼠标
+set mouse=a
 
 \"vim启动时自动打开文件树
 autocmd vimenter * NERDTree
