@@ -53,6 +53,16 @@ colorscheme molokai
 set nu
 \"启用鼠标
 set mouse=a
+\"代码折叠
+set foldenable
+set fdm=indent
+\"设置缩进
+set ts=4
+set sw=4
+set expandtab
+set smartindent
+\"在插入模式下启动backspace键
+set backspace=2
 
 \"vim启动时自动打开文件树
 autocmd vimenter * NERDTree
