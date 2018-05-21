@@ -59,7 +59,7 @@ set fdm=indent
 \"设置缩进
 set ts=4
 set sw=4
-set expandtab
+\"set expandtab
 set smartindent
 \"在插入模式下启动backspace键
 set backspace=2
