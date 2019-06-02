@@ -36,13 +36,11 @@ call plug#end()
 
 echo "
 
-	正在安装插件,当前插件安装目录为${HOME}/.vim/plugins 
-	请先不要操作vim
-	安装完成后会自动操作下一步操作
-	
-	何方博客 https://hefang.link
-	
-	
+正在安装插件,当前插件安装目录为${HOME}/.vim/plugins 
+请先不要操作vim
+安装完成后会自动操作下一步操作
+
+何方博客 https://hefang.link
 " > ~/.vim/README
 vim +PlugInstall +qall +set\ nu -R ~/.vim/README
 
@@ -73,19 +71,13 @@ let g:NERDTreeDirArrowCollapsible = '-'
 " >> ~/.vimrc
 
 echo "
-	vim 已初始化完成
-	左侧为文件树,用回车键或鼠标双击可以打开目录和文件
-	
-	配置文件为${HOME}/.vimrc
-	您可以自行编辑配置文件进行自定义配置
+vim 已初始化完成
+左侧为文件树,用回车键或鼠标双击可以打开目录和文件
 
+配置文件为${HOME}/.vimrc
+您可以自行编辑配置文件进行自定义配置
 
-	何方博客: https://hefang.link
-
-
-
-
-
+何方博客: https://hefang.link
 " > ~/.vim/README
 
 cd ~/
